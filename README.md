@@ -2,4 +2,4 @@
 
 School project.
 
-Curriculum Vitae made in HTML and CSS
+Responsive CV made in HTML and CSS.
