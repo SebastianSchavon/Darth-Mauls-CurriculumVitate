@@ -1,3 +1,5 @@
 # curriculum-vitae
 
-School project: responsive CSS 
+School project.
+
+Curriculum Vitae made in HTML and CSS
