@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+hr{
+    border-color: red;
+    opacity: 50%; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body{
+    color: white;
+    font-size: 110%;
+    background-color: black;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@font-face{
+    font-family: Starjedi;
+    src: url(fonts/Starjedi.ttf);
+}
+
+
+
+
+
+
+
+header{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px black;
+    margin-bottom: 50px;
+}
+
+header div{
+    background-color: transparent;
+    position: absolute;
+    margin-top: 250px;
+    white-space: nowrap;
+    opacity: 90%;
+
+}
+
+header div p em{
+    color: #00F325;
+    font-style: normal;
+    font-size: 110%;   
+}
+
+header div h1 em{
+    color: red;
+    font-style: normal;
+    font-size: 110%;   
+    font-family: Starjedi;
+}
+
+header img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+#biography{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#biography img{
+    height: 180px;
+    display: block;
+    border-radius: 3%;
+    margin: 30px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#biography p{
+    margin: 40px;
+    text-align: left;
+}
+
+#quotes{
+    margin-bottom: 10px;
+}
+
+#quotes ul{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+
+#quotes li{
+    margin: 40px;
+    list-style: none;
+    display: flex;
+}
+
+#quotes blockquote{
+    font-style: italic;
+    margin: 20px;
+}
+
+#quotes blockquote p{
+    margin: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#quotes img{
+    height: 100px;
+    border-radius: 50%;
+}
+
+#quotes ::-webkit-scrollbar {
+    overflow: visible;
+    height: 5px;
+}
+
+#quotes ::-webkit-scrollbar-track {
+    background: transparent;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+  
+#quotes ::-webkit-scrollbar-thumb {
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#life-experience {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#life-experience div {
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#life-experience h3{
+    white-space: nowrap;
+}
+
+#life-experience div p {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+#merits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding: 20px;
+}
+
+#merits div{
+    margin: 30px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#merits h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#merits ul{
+    list-style:disc;
+    font-size: 80%;
+}
+
+
+#merits li{
+    margin: 20px;
+}
+
+#merits li blockquote{
+    margin: 5px;
+}
+
+
+
+
+
+
+footer div{
+    margin-bottom: 40px;
+}
+
+footer div{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.logo{
+    height: 200px;
+    display: none;
+}
+
+
+
+@media(min-width: 800px){
+
+    header div{
+        background-color: transparent;
+        position: absolute;
+        white-space: nowrap;
+    
+    }
+
+    #life-experience{
+        display: grid;
+        grid-template: 
+            "a b"
+            "c d";
+    }
+
+
+
+    #merits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #merits h2{
+        text-align: left;
+    }
+
+
+}
+
+@media(min-width:920px){
+    #biography{
+        display: flex;
+        margin-left: 25px;    
+        margin-right: 25px;    
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo{
+        display: flex;
+        height: 200px;
+
+    }
+
+}
+
+@media(min-width:1200px){
+
+    #life-experience{
+        display: flex;
+    }
+
+    #merits{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}
+
+@media(min-width:1600px){
+    body{
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+
+    header div{
+        background-color: transparent;
+        position: absolute;
+        white-space: nowrap;
+    
+    }
+
+    #quotes{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+@media(max-width: 400px){
+    body{   
+        margin-left: auto;
+        margin-right: auto;
+        width: 380px;
+    }
+
+    #biography img{
+        height: 180px;
+    }
+
+}
