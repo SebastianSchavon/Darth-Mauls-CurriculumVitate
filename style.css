@@ -1,3 +1,8 @@
+/* 
+DOCUMENT
+SECTION 
+*/
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -26,11 +31,10 @@ body{
     src: url(fonts/Starjedi.ttf);
 }
 
-
-
-
-
-
+/* 
+HEADER
+SECTION 
+*/
 
 header{
     margin: 40px;
@@ -68,13 +72,8 @@ header img{
     object-fit: cover;
 }
 
-
-
-
-
-
-
-
+//BIOGRAPHY
+//SECTION
 
 #biography{
     margin-left: auto;
@@ -95,6 +94,11 @@ header img{
     margin: 40px;
     text-align: left;
 }
+
+/* 
+QUOTES
+SECTION 
+*/
 
 #quotes{
     margin-bottom: 10px;
@@ -146,15 +150,10 @@ header img{
     border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
+/* 
+LIFE-EXPERIENCE
+SECTION 
+*/
 
 #life-experience {
     padding: 10px;
@@ -179,11 +178,10 @@ header img{
     margin: 20px;
 }
 
-
-
-
-
-
+/* 
+MERITS
+SECTION 
+*/
 
 #merits {
     display: flex;
@@ -219,10 +217,10 @@ header img{
     margin: 5px;
 }
 
-
-
-
-
+/* 
+FOOTER
+SECTION 
+*/
 
 footer div{
     margin-bottom: 40px;
@@ -238,7 +236,10 @@ footer div{
     display: none;
 }
 
-
+/* 
+MEDIA
+SECTION 
+*/
 
 @media(min-width: 800px){
 
